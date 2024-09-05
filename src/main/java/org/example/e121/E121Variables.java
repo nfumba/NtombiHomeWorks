@@ -16,22 +16,20 @@ public class E121Variables {
 
             // Assign values to variables for the first instance
             instance1.intValue = 10;
-            instance1.doubleValue = 20.5;
-            instance1.charValue = 'A';
+            instance1.doubleValue = 10.23;
+            instance1.charValue = 'a';
 
             // Print values of the first instance
-            System.out.println("Instance 1:");
             System.out.println("Int Value: " + instance1.intValue);
             System.out.println("Double Value: " + instance1.doubleValue);
             System.out.println("Char Value: " + instance1.charValue);
 
             // Assign values to variables for the second instance
-            instance2.intValue = 30;
-            instance2.doubleValue = 40.75;
-            instance2.charValue = 'B';
+            instance2.intValue = 100;
+            instance2.doubleValue = 100.23;
+            instance2.charValue = 's';
 
             // Print values of the second instance
-            System.out.println("\nInstance 2:");
             System.out.println("Int Value: " + instance2.intValue);
             System.out.println("Double Value: " + instance2.doubleValue);
             System.out.println("Char Value: " + instance2.charValue);
